@@ -10,6 +10,16 @@
     max-width: 1536px;
     margin: 0 auto;
 }
+section{
+    padding: 50px 0;
+}
+.title{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #000102;
+}
 
 .common-btn {
     padding: 10px 25px;
@@ -86,4 +96,39 @@ header {
 .header-content .button .btn{
     font-size: 18px;
     padding: 15px 30px;
+}
+
+/*meet section css*/
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.card{
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+}
+.card-container .card img{
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+.card-container .card .card-description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.card-container .card .card-description h4{
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 600;
+}
+.card-container .card .card-description h2{
+    color: #0D1B2A;
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-container .card .card-description p{
+    color: #575757;
+    font-size: 14px;
 }
