@@ -10,15 +10,21 @@
     max-width: 1536px;
     margin: 0 auto;
 }
-section{
+
+section {
     padding: 50px 0;
 }
-.title{
+
+.title {
     font-size: 50px;
     font-weight: 700;
     text-align: center;
-    padding-bottom: 40px;
     color: #000102;
+}
+
+.sub-title {
+    color: #575757;
+    text-align: center;
 }
 
 .common-btn {
@@ -93,42 +99,198 @@ header {
     justify-content: center;
     padding-bottom: 40px;
 }
-.header-content .button .btn{
+
+.header-content .button .btn {
     font-size: 18px;
     padding: 15px 30px;
 }
 
 /*meet section css*/
-.card-container{
+.card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.card{
+
+.meet-text .title {
+    padding-bottom: 40px;
+}
+
+.card {
     border: 1px solid #E5E7EB;
     border-radius: 8px;
 }
-.card-container .card img{
+
+.card-container .card img {
     border-radius: 8px 8px 0 0;
     width: 100%;
 }
-.card-container .card .card-description{
+
+.card-container .card .card-description {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 20px;
 }
-.card-container .card .card-description h4{
+
+.card-container .card .card-description h4 {
     color: #2563EB;
     font-size: 12px;
     font-weight: 600;
 }
-.card-container .card .card-description h2{
+
+.card-container .card .card-description h2 {
     color: #0D1B2A;
     font-size: 20px;
     font-weight: 700;
 }
-.card-container .card .card-description p{
+
+.card-container .card .card-description p {
     color: #575757;
     font-size: 14px;
+}
+
+/*plan seciton css*/
+.plan-text .sub-title {
+    padding: 10px 0 40px 0;
+}
+
+.plan-container {
+    display: flex;
+    gap: 20px;
+    padding: 0 100px;
+}
+
+.plan-container .card {
+    flex: 1;
+    padding: 30px;
+}
+
+.plan-container .card .card-text h3 {
+    color: #575757;
+    font-weight: 600;
+}
+
+.plan-container .card .card-text h1 {
+    color: #0D1B2A;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.plan-container .card .card-text p {
+    color: #575757;
+    font-size: 13px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 20px;
+}
+
+.plan-container .card .hr {
+    border: 1px solid #E5E7EB;
+}
+
+.plan-container .card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.plan-container .card ul li {
+    color: #333333;
+    font-size: 14px;
+}
+
+.plan-container .card .plan-btn {
+    border: 1px solid #2563EB;
+    color: #2563EB;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+}
+
+.plan-container .plan-2 {
+    background-color: #0D1B2A;
+}
+
+.plan-container .plan-2 .card-text h3 {
+    color: #93C5FD;
+}
+
+.plan-container .plan-2 .card-text h1 {
+    color: #ffffff;
+}
+
+.plan-container .plan-2 .card-text p {
+    color: #dfd9d9;
+}
+
+.plan-container .card .plan-2-ul ul li {
+    color: #C7CDD8;
+    font-size: 14px;
+}
+
+.plan-container .card .hr-2 {
+    border: 1px solid #8e8e90;
+}
+
+.plan-container .card .plan-btn-2 {
+    background-color: #1D4ED8;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.plan-container .plan-3 {
+    background-color: #F8F9FB;
+}
+
+.plan-container .plan-3 .plan-btn {
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
+
+/*footer design*/
+footer{
+    background-color: #0D1B2A;
+    padding: 20px 0;
+    
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.footer-nav .footer-social-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.footer-nav .footer-social-links li a i{
+    font-size: 24px;
+}
+.footer-nav .footer-social-links li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.copyright-text{
+    font-size: 12px;
+    color:#fff;
+    text-align:center;
+    margin-top:10px;
 }
