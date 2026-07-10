@@ -1,0 +1,1 @@
+I want to a section that will have a title and 2 columns one will left and another right. The first column will have a ul with 4 li and right will have a tag contain JOIN US and input fields which contains placeholder enter your email and a button SUBSCRIBE for my web developer landing page.

@@ -37,12 +37,20 @@ section {
     cursor: pointer;
 }
 
+.common-btn:hover {
+    background: #372ee5;
+}
+
 /*navbar css*/
 .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
+    padding: 15px 0;
+}
+
+.navbar .logo {
+    cursor: pointer;
 }
 
 .nav-links-ul {
@@ -163,7 +171,7 @@ header {
     font-size: 14px;
 }
 
-/*plan seciton css*/
+/*pricing seciton css*/
 .pricing-text .sub-title {
     padding: 10px 0 40px 0;
 }
@@ -222,8 +230,6 @@ header {
 
 .pricing-ul li {
     color: #333333;
-
-
 }
 
 .pricing-2 {
@@ -250,6 +256,7 @@ header {
     list-style: none;
     padding: 20px 0;
 }
+
 .pricing-container .pricing-ul-pro li::before {
     content: "•";
     color: #2563EB;
@@ -271,6 +278,11 @@ header {
     width: 100%;
 }
 
+.btn-standard:hover {
+    color: #ffffff;
+    background-color: #2563EB;
+}
+
 .btn-pro {
     background-color: #1D4ED8;
     color: white;
@@ -290,81 +302,82 @@ header {
     width: 100%;
 }
 
-
-/* 
-
-
-
-
-
-.plan-container .card ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 20px 0;
-}
-
-.plan-container .card ul li {
-    color: #333333;
-    font-size: 14px;
-}
-
-.plan-container .card .plan-btn {
-    border: 1px solid #2563EB;
-    color: #2563EB;
-    background-color: #ffffff;
-    font-size: 14px;
-    font-weight: 600;
-    display: block;
-    width: 100%;
-}
-
-.plan-container .plan-2 {
+.btn-team:hover {
+    color: #fff;
     background-color: #0D1B2A;
 }
 
-.plan-container .plan-2 .card-text h3 {
-    color: #93C5FD;
+/*-------------AI generated css start--------------*/
+/*why us section*/
+.join-community {
+    padding: 60px 0;
+
 }
 
-.plan-container .plan-2 .card-text h1 {
-    color: #ffffff;
+.community-title {
+    padding-bottom: 40px;
 }
 
-.plan-container .plan-2 .card-text p {
-    color: #dfd9d9;
+.community-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.plan-container .card .plan-2-ul ul li {
-    color: #E5E7EB;
-    font-size: 14px;
+.community-left,
+.community-right {
+    flex: 1;
 }
 
-.plan-container .card .hr-2 {
-    border: 1px solid #8e8e90;
+.community-left ul {
+    padding-left: 20px;
 }
 
-.plan-container .card .plan-btn-2 {
-    background-color: #1D4ED8;
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
-    display: block;
+.community-left li {
+    margin-bottom: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.community-right {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.community-right h3 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.community-right input {
     width: 100%;
-    padding: 10px 25px;
-    border-radius: 8px;
-    font-weight: 700;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.community-right button {
+    width: 100%;
+    padding: 14px;
+    background: #4e47ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
     cursor: pointer;
 }
 
-.plan-container .plan-3 {
-    background-color: #F8F9FB;
+.community-right button:hover {
+    background: #372ee5;
 }
 
-.plan-container .plan-3 .plan-btn {
-    color: #0D1B2A;
-    border: 1px solid #0D1B2A;
-} */
+/*-------------AI generated css end--------------*/
 
 /*footer design*/
 footer {
