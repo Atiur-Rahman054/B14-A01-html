@@ -35,6 +35,7 @@ section {
     color: white;
     font-weight: 700;
     cursor: pointer;
+    transition: color 0.2s ease;
 }
 
 .common-btn:hover {
@@ -140,6 +141,11 @@ header {
 .card {
     border: 1px solid #E5E7EB;
     border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow .3s ease;
+}
+.card:hover{
+     transform: translateY(-10px);
+     box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.10);
 }
 
 .card-container .card img {
@@ -276,6 +282,7 @@ header {
     font-weight: 600;
     display: block;
     width: 100%;
+    transition: color 0.2s ease;
 }
 
 .btn-standard:hover {
@@ -300,6 +307,7 @@ header {
     font-weight: 600;
     display: block;
     width: 100%;
+    transition: color 0.2s ease;
 }
 
 .btn-team:hover {
@@ -371,6 +379,7 @@ header {
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
+    transition: color 0.2s ease;
 }
 
 .community-right button:hover {
@@ -406,6 +415,10 @@ footer {
 .footer-nav .footer-social-links li a {
     color: #ffffff;
     text-decoration: none;
+    transition: color 0.2s ease;
+}
+.footer-nav .footer-social-links li a:hover{
+    color: #2563EB;
 }
 
 .copyright-text {
