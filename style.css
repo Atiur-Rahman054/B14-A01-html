@@ -56,15 +56,21 @@ section {
 
 .nav-links-ul {
     display: flex;
+    font-size: 18px;
     justify-content: center;
     align-items: center;
     gap: 30px;
     list-style: none;
+    font-weight: 600;
 }
 
 .nav-links-ul li a {
     text-decoration: none;
     color: #575757;
+    transition: color 0.2s ease;
+}
+.nav-links-ul li a:hover{
+    color: #2563EB;
 }
 
 /*header css*/
@@ -144,7 +150,7 @@ header {
     transition: transform 0.3s ease, box-shadow .3s ease;
 }
 .card:hover{
-     transform: translateY(-10px);
+     transform: translateY(-5px);
      box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.10);
 }
 
