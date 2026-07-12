@@ -419,7 +419,7 @@ footer {
 }
 
 .footer-nav .footer-social-links li a {
-    color: #ffffff;
+    color: #E5E7EB;
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -427,9 +427,14 @@ footer {
     color: #2563EB;
 }
 
+.footer-copyright hr{
+    border: 0;
+    border-top: 2px solid #1F2F52;
+}
+
 .copyright-text {
     font-size: 12px;
-    color: #fff;
+    color: #E5E7EB;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
